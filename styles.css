@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+.app {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*form label {*/
+    /*display: inline-block;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+form input[type='text'] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form input[type='email'] {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+}
+
+
+form button[type='submit'] {
+    background-color: #007bff;
+    border-radius: 4px;
+    border-color: #007bff;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 6px 12px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+li {
+    background: #e9ecef;
+    margin-bottom: 10px;
+    padding: 10px 16px;
+}
+
+li .contactImage {
+    height: 80px;
+    width: 80px;
+}
+
+li .contactItemBlock {
+    display: inline-block;
+    margin-left: 20px;
+}

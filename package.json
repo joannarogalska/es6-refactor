@@ -1,0 +1,24 @@
+{
+  "name": "search-gif-refactor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannarogalska/search-gif.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joannarogalska/search-gif/issues"
+  },
+  "homepage": "https://github.com/joannarogalska/search-gif#readme",
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "http-server": "^0.11.1"
+  }
+}
